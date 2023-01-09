@@ -25,7 +25,7 @@ pub struct ElPacket {
     ehd1: u8,
     ehd2: u8,
     // unique ID for each packet
-    transaction_id: u16,
+    pub transaction_id: u16,
     // source ECHONET object
     pub seoj: EchonetObject,
     // destination ECHONET object
